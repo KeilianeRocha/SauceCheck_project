@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23b2bf8c-e42f-48be-a173-7f9c40b95c94" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SauceCheck.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SauceCheck.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comando_assert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapeando_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_comandos_condicionais.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_comandos_de_aplicacao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_comandos_de_espera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_comandos_de_interacao_com_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_comandos_navegacao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_comandos_para_localizar_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_espera_explicita.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_sauceCheck.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KeilianeRocha"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:KeilianeRocha/sauceCheck_V01.git",
+    "accountId": "90f54412-2a5b-4b75-a044-19f79c072552"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2yvASTsqefqvSR4U5zU03dXuQAB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23b2bf8c-e42f-48be-a173-7f9c40b95c94" name="Changes" comment="" />
+      <created>1750704678691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750704678691</updated>
+    </task>
+    <servers />
+  </component>
+</project>
