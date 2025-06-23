@@ -1,2 +1,8 @@
 .idea/
+
+# PyCharm
 .idea/
+*.iml
+*.ipr
+*.iws
+
