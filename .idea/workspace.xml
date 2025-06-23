@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23b2bf8c-e42f-48be-a173-7f9c40b95c94" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/comando_assert.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/mapeando_elementos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_condicionais.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_de_aplicacao.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_de_espera.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_de_interacao_com_elementos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_navegacao.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_para_localizar_elementos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_espera_explicita.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_sauceCheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +44,11 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Users\Keili\sauceCheck_V01" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
