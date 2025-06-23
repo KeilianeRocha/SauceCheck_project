@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23b2bf8c-e42f-48be-a173-7f9c40b95c94" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/comando_assert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/mapeando_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_condicionais.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_de_aplicacao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_de_espera.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_de_interacao_com_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_navegacao.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_comandos_para_localizar_elementos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_espera_explicita.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SauceCheck/sauceCheck_V01/test_sauceCheck.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,35 +25,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KeilianeRocha"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KeilianeRocha&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:KeilianeRocha/sauceCheck_V01.git",
-    "accountId": "90f54412-2a5b-4b75-a044-19f79c072552"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:KeilianeRocha/sauceCheck_V01.git&quot;,
+    &quot;accountId&quot;: &quot;90f54412-2a5b-4b75-a044-19f79c072552&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2yvASTsqefqvSR4U5zU03dXuQAB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
