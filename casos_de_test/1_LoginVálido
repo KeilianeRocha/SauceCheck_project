@@ -1,0 +1,11 @@
+1. Login Válido
+
+
+[x] Acessar a página de login.
+[x] Preencher usuário.
+- Credenciais:
+    - UserName: standard_user
+    - Password: secret_sauce
+[x] Clicar no botão "Login".
+[x] Validar redirecionamento para /inventory.html.
+- Mapear o elemento 'Swag Labs' na página principal
