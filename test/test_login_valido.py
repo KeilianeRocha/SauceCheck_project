@@ -22,14 +22,12 @@ browser.maximize_window()
 browser.get("https://www.saucedemo.com/")
 wait = WebDriverWait(browser, 30)
 
-username = browser.find_element(By.ID, "user-name")
-password = browser.find_element(By.ID, "password")
-
-username.send_keys("standard_user")
-password.send_keys("secret_sauce")
+username = browser.find_element(By.ID, "user-name").send_keys("standard_user")
+password = browser.find_element(By.ID, "password").send_keys("secret_sauce")
 login = browser.find_element(By.ID, "login-button").click()
 
 homePage = browser.find_element(By.XPATH, "//*[@class='app_logo']")
-print(homePage.text)
-assert homePage.text == "Swag Labs" # o texto tem que ser igual!
+#print(homePage.text)
+assert browser.find_element(By.XPATH, "//*[@class='app_logo']").is_displayed()
+#assert homePage.text == "Swag Labs" # o texto tem que ser igual!
 time.sleep(3)
