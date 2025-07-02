@@ -1,5 +1,7 @@
 import time
 import pytest
+
+from pages.login_page import LoginPage
 from tests import conftest
 from selenium.webdriver.common.by import By
 
@@ -9,9 +11,8 @@ from selenium.webdriver.common.by import By
 class TestCT02:
     def test_ct02_login_invalido(self):
         driver = conftest.driver
-        driver.find_element(By.ID, "user-name").send_keys("standard_user")
-        driver.find_element(By.ID, "password").send_keys("test_errorzz")
-        driver.find_element(By.ID, "login-button").click()
+        login_page = LoginPage()
+        login_page.fazer_login("standard_user", "test_errorzz")
 
         alert_erro_messagen = driver.find_element(By.XPATH, "//*[@class='error-message-container error']")
         print(alert_erro_messagen.text)

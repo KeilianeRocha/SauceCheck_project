@@ -1,5 +1,7 @@
 import time
 import pytest
+
+from pages.login_page import LoginPage
 from tests import conftest
 from selenium.webdriver.common.by import By
 
@@ -10,9 +12,8 @@ from selenium.webdriver.common.by import By
 class TestCT03:
     def test_ct03_add_prod_carrinho(self):
         driver = conftest.driver
-        driver.find_element(By.ID, "user-name").send_keys("standard_user")
-        driver.find_element(By.ID, "password").send_keys("secret_sauce")
-        driver.find_element(By.ID, "login-button").click()
+        login_page = LoginPage()
+        login_page.fazer_login("standard_user", "secret_sauce")
 
         homepage = driver.find_element(By.XPATH, "//*[@class='app_logo']")
         print(homepage.text)

@@ -1,18 +1,19 @@
 import time
 import pytest
+
+from pages.login_page import LoginPage
 from tests import conftest
 from selenium.webdriver.common.by import By
 
 
 # Comandos 'assert' → sempre espera um retorno da condição True
 @pytest.mark.usefixtures("setup_teardown")
-@pytest.mark.checkout
+
 class TestCT04:
     def test_ct04_checkout(self):
         driver = conftest.driver
-        driver.find_element(By.ID, "user-name").send_keys("standard_user")
-        driver.find_element(By.ID, "password").send_keys("secret_sauce")
-        driver.find_element(By.ID, "login-button").click()
+        login_page = LoginPage()
+        login_page.fazer_login("standard_user", "secret_sauce")
 
         homepage = driver.find_element(By.XPATH, "//*[@class='app_logo']")
         print(homepage.text)
