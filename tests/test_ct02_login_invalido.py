@@ -1,20 +1,22 @@
 import time
 import pytest
-
 from pages.login_page import LoginPage
-from tests import conftest
-from selenium.webdriver.common.by import By
 
 
 @pytest.mark.usefixtures("setup_teardown")
 @pytest.mark.loginInvalido
 class TestCT02:
     def test_ct02_login_invalido(self):
-        driver = conftest.driver
+        texto_esperado = f"Epic sadface: Username and password do not match any user in this service"
         login_page = LoginPage()
+
+        # Verifica se o login foi realizado
         login_page.fazer_login("standard_user", "test_errorzz")
 
-        alert_erro_messagen = driver.find_element(By.XPATH, "//*[@class='error-message-container error']")
-        print(alert_erro_messagen.text)
-        assert alert_erro_messagen.text == "Epic sadface: Username and password do not match any user in this service"
+        # verifica se login falhou
+        login_page.verificar_se_erro_login_existe()
+
+        # verifica o texto da mensagem de erro
+        login_page.verificar_texto_erro_login(texto_esperado)
+
         time.sleep(3)

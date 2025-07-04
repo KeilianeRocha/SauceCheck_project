@@ -22,4 +22,5 @@ class BasePage:
     def verificar_elemento_existe(self, locator):
         assert self.encontrar_elemento(locator).is_displayed(), f"O elemento '{locator}' não foi encontrado na tela."
 
-
+    def capturar_texto_elemento(self, locator):
+        return self.encontrar_elemento(locator).text
