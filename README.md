@@ -13,4 +13,3 @@ WebDriver compatível (ex.: ChromeDriver para o Chrome).
 2. Login Inválido
 3. Seleção de Produto
 4. Checkout Básico
-5. 
