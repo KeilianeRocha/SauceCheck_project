@@ -6,3 +6,9 @@
 *.ipr
 *.iws
 
+# venv
+.venv/
+
+# utils
+utils/
+
