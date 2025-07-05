@@ -1,10 +1,8 @@
 import time
 import pytest
-from driver import driver
+from pages.carrinho_page import CarrinhoPage
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
-from tests import conftest
-from selenium.webdriver.common.by import By
 
 
 # Comandos 'assert' → sempre espera um retorno da condição True
@@ -14,26 +12,29 @@ class TestCT03:
     def test_ct03_add_prod_carrinho(self):
         login_page = LoginPage()
         home_page = HomePage()
+        carrinho_page = CarrinhoPage()
+
+        # declarando as variaveis
+        produto_1 = "Sauce Labs Backpack"
+        produto_2 = "Sauce Labs Bike Light"
 
         # Faz login
         login_page.fazer_login("standard_user", "secret_sauce")
-        home_page.verificar_login_sucesso()
-
-        #homepage = driver.find_element(By.XPATH, "//*[@class='app_logo']")
-        #print(homepage.text)
-        #assert homepage.text == "Swag Labs"
 
         # Selecionar produto 1
-        driver.find_element(By.ID, "//*[@class='inventory_item_name ' and text()='Sauce Labs Backpack']").click()
-        driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
+        home_page.adicionar_item_ao_carrinho(produto_1)
+
+        # verificar se produto 1 foi adicionado
+        home_page.acessar_carrinho()
+        carrinho_page.verificar_produto_carrinho_existe(produto_1)
+
+        # continuar comprando
+        carrinho_page.clicar_continuar_comprando()
 
         # Selecionar produto 2
-        driver.find_element(By.ID, "//*[@class='inventory_item_name ' and text()='Sauce Labs Bike Light']").click()
-        driver.find_element(By.ID, "add-to-cart-sauce-labs-bike-light").click()
+        home_page.adicionar_item_ao_carrinho(produto_2)
 
-        # visualizar no carro
-        driver.find_element(By.XPATH, "//*[@class='shopping_cart_link']").click()
-        checkproduct = driver.find_element(By. XPATH, "//*[@class='inventory_item_name']")
-        print(checkproduct.text)
-        assert checkproduct.text == "Sauce Labs Backpack"
-        time.sleep(3)
+        # verificar se produto 2 foi adicionado
+        home_page.acessar_carrinho()
+        carrinho_page.verificar_produto_carrinho_existe(produto_2)
+        time.sleep(2)

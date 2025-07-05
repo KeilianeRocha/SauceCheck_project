@@ -19,7 +19,6 @@ def setup_teardown():
     driver.maximize_window()
     driver.get("https://www.saucedemo.com/")
 
-
     # run test
     yield
 

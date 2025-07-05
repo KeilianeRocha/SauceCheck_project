@@ -20,7 +20,6 @@ class TestCT04:
         assert homepage.text == "Swag Labs"
 
         # Selecionar produto
-
         driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
 
         # visualizar no carro

@@ -1,8 +1,0 @@
-2. Login Inválido
-
-[x] Tentar login com credenciais incorretas (ex.: user_invalido, senha_errada).
-- Credenciais:
-    - UserName: standard_user
-    - Password: test_1234
-
-[x] Verificar mensagem de erro: Epic sadface: Username and password do not match any user in this service.

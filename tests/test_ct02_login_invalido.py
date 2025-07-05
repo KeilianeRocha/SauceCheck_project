@@ -18,5 +18,3 @@ class TestCT02:
 
         # verifica o texto da mensagem de erro
         login_page.verificar_texto_erro_login(texto_esperado)
-
-        time.sleep(3)

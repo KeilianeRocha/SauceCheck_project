@@ -1,7 +1,0 @@
-4. Checkout Básico
-
-[x] Acessar o carrinho.
-[] Clicar em "Checkout".
-[x] Preencher formulário (nome, sobrenome, CEP).
-[x] Validar página de resumo (/checkout-step-two.html).
-[x] Clicar em "Finish" e verificar mensagem de sucesso: Thank you for your order!.

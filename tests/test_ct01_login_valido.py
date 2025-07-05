@@ -15,7 +15,4 @@ class TestCT01:
         login_page.fazer_login("standard_user","secret_sauce")
         home_page.verificar_login_sucesso()
 
-        #homepage = driver.find_element(By.XPATH, "//*[@class='app_logo']")
-        #print(homepage.text)
-        #assert homepage.text == "Swag Labs" # o texto tem que ser igual!
         time.sleep(3)
