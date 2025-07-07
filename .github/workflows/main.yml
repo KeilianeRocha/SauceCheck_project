@@ -1,0 +1,22 @@
+name: Run Tests
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+          
+      - run: pip install pytest
+      
+      - run: pytest tests/ --html=report.html --self-contained-html
+      
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-report
+          path: report.html
