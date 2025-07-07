@@ -5,30 +5,34 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python 3.9
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.9'
-
-      - name: Install dependencies
+          
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
-          pip install pytest selenium pytest-html
-          pip install -r requirements.txt  # Se existir
-
-      - name: Run tests with retry
+          sudo ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
+          chrome --version
+          chromedriver --version
+          
+      - name: Install Python packages
         run: |
-          # Tenta executar os testes 2 vezes antes de falhar
-          pytest tests/ --html=report.html --self-contained-html || \
-          (echo "Primeira execução falhou - Tentando novamente..." && \
-          pytest tests/ --html=report.html --self-contained-html --last-failed)
-
+          python -m pip install --upgrade pip
+          pip install pytest selenium pytest-html
+          
+      - name: Run tests
+        run: |
+          export DISPLAY=:99
+          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+          pytest tests/ --html=report.html --self-contained-html
+          
       - name: Upload report
-        if: always()  # Executa mesmo se os testes falharem
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: test-report
