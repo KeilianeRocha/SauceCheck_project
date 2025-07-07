@@ -9,7 +9,7 @@ Automação de testes para o site [SauceDemo](https://www.saucedemo.com/) usando
 seguindo o padrão **Page Object Model (POM)**.
 
 ## 🚀 Funcionalidades Testadas  
-- Login (válido/invido).  
+- Login (válido/inválido).  
 - Adição de produtos ao carrinho.  
 - Validação de produto no inventário. 
 - Checkout 
