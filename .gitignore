@@ -45,6 +45,6 @@ images/
 utils/
 
 # ==== Exceções (não ignorar) ====
-!.github/workflows/run-tests.yml
+
 !pages/__init__.py
 !tests/__init__.py
