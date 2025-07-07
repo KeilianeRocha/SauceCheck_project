@@ -1,9 +1,9 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+import pytest_html  # Adicione esta importação no topo do arquivo
 
 driver: webdriver.Remote
-
 
 @pytest.fixture()
 def setup_teardown():
@@ -14,7 +14,6 @@ def setup_teardown():
     chrome_options.add_argument("--incognito")  # Ativa o modo anônimo
     driver = webdriver.Chrome(options=chrome_options)  # instancia o Chrome como driver desse teste
     driver.implicitly_wait(12)  # fica fazendo verificação ate fazer o teste
-
     # Acessa página
     driver.maximize_window()
     driver.get("https://www.saucedemo.com/")
@@ -24,5 +23,4 @@ def setup_teardown():
 
     # teardown
     driver.quit()
-
 

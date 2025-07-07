@@ -1,6 +1,5 @@
 import time
 import pytest
-
 from pages.login_page import LoginPage
 from tests import conftest
 from selenium.webdriver.common.by import By

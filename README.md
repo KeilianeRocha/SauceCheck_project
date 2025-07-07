@@ -1,17 +1,37 @@
-# sauceCheck_V01
+# 🔍 SauceCheck - Automação de Testes em Python  
 
-Objetivo: Validar o fluxo principal do e-commerce (login → adicionar produto → checkout).
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-orange?logo=selenium)
+![Pytest](https://img.shields.io/badge/Pytest-Framework-green?logo=pytest)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-black?logo=githubactions)
 
-🔹 Pré-requisitos
-Ambiente Python configurado (python, pip).
+Automação de testes para o site [SauceDemo](https://www.saucedemo.com/) usando **Selenium WebDriver + Python + Pytest**, 
+seguindo o padrão **Page Object Model (POM)**.
 
-Bibliotecas instaladas (selenium, pytest ou unittest).
+## 🚀 Funcionalidades Testadas  
+- Login (válido/invido).  
+- Adição de produtos ao carrinho.  
+- Validação de produto no inventário. 
+- Checkout 
 
-WebDriver compatível (ex.: ChromeDriver para o Chrome).
+## ⚙️ Tecnologias  
+- **Linguagem**: Python 3.x  
+- **Frameworks**: Selenium WebDriver, Pytest  
+- **Padrão**: Page Object Model (POM)  
 
-1. 🧪 Casos de Teste Mapeados
-2. Login Inválido
-3. Seleção de Produto
-4. Checkout Básico
+## 📦 Como Executar  
+1. Clone o repositório:  
+   ```bash
+   git clone https://github.com/KeilianeRocha/SauceCheck_project.git
+   pip install -r requirements.txt  
+   pytest tests/  
+   
 
-## Final
+![Diagrama de Sequência](images/diagram_Mermaid_Chart.png)
+
+- **Status do CI/CD**: [![GitHub Actions Status](https://img.shields.io/github/actions/workflow/status/KeilianeRocha/SauceCheck_project/python-app.yml?label=Tests)](https://github.com/KeilianeRocha/SauceCheck_project/actions)
+
+## 📊 Resultado dos Testes  
+![Output do Pytest](./imgs/test_output.png)  
+
+

@@ -3,7 +3,6 @@ import pytest
 from pages.home_page import HomePage
 from pages.login_page import LoginPage
 
-
 @pytest.mark.usefixtures("setup_teardown")
 @pytest.mark.loginValido
 class TestCT01:
