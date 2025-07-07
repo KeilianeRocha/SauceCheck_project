@@ -1,7 +1,6 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import pytest_html  # Adicione esta importação no topo do arquivo
 
 driver: webdriver.Remote
 

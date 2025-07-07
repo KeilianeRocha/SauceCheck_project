@@ -31,7 +31,6 @@ seguindo o padrão **Page Object Model (POM)**.
 
 - **Status do CI/CD**: [![GitHub Actions Status](https://img.shields.io/github/actions/workflow/status/KeilianeRocha/SauceCheck_project/python-app.yml?label=Tests)](https://github.com/KeilianeRocha/SauceCheck_project/actions)
 
-## 📊 Resultado dos Testes  
-![Output do Pytest](./imgs/test_output.png)  
+> Em construção ... 
 
 

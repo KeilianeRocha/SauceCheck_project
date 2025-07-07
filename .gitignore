@@ -1,15 +1,50 @@
-.idea/
-
-# PyCharm
+# ==== Configurações de IDE ====
+# PyCharm/IntelliJ
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# venv
-.venv/
+# VS Code
+.vscode/
 
-# utils
+# Editor temporários
+*.swp
+*.swo
+
+# ==== Ambiente Python ====
+# Virtualenv
+.venv/
+venv/
+
+# Cache/compilados Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.python-version
+
+# ==== Testes e Relatórios ====
+# Pytest
+.pytest_cache/
+report.html
+.coverage
+htmlcov/
+
+# ==== Sistema ====
+.DS_Store
+Thumbs.db
+
+# ==== Logs e Temporários ====
+*.log
+*.tmp
+
+# ==== Pastas específicas do projeto ====
+assets/
+images/
 utils/
 
-# configurações
+# ==== Exceções (não ignorar) ====
+!.github/workflows/run-tests.yml
+!pages/__init__.py
+!tests/__init__.py
