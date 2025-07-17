@@ -31,6 +31,6 @@ seguindo o padrão **Page Object Model (POM)**.
 
 - **Status do CI/CD**: [![GitHub Actions Status](https://img.shields.io/github/actions/workflow/status/KeilianeRocha/SauceCheck_project/python-app.yml?label=Tests)](https://github.com/KeilianeRocha/SauceCheck_project/actions)
 
-> Em construção ... 
+> Em construção ... Pois é, o ``Actions quebrou 😢``
 
 
